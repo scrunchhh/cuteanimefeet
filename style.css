@@ -15,7 +15,16 @@ body {
   display: flex;
   grid-area: 3 / 2 / 4 / 3;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+#sniffa {
+  opacity: 0;
+  transition: ease 0.25s;
+}
+
+#sniffa:hover {
+  opacity: 1;
 }
 
 .title {
