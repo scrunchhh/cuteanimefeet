@@ -1,0 +1,17 @@
+:root {
+  --bgcolor: #16161d;
+}
+
+body {
+  display: grid;
+  background-color: var(--bgcolor);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.feet {
+  display: flex;
+  grid-area: 3 / 2 / 4 / 3;
+  align-items: flex-end;
+  justify-content: center;
+}
