@@ -28,14 +28,14 @@ body {
 }
 
 .title {
-  padding-bottom: 175px;
-  padding-top: 25px;
   font-family: "Lato", sans-serif;
   font-size: 50px;
   font-weight: 700;
   display: grid;
   grid-area: 1 / 1 / 2 / 2;
   grid-template-rows: 1fr 1fr 1fr;
+  max-height: 50px;
+  margin-top: 25px;
 }
 
 .title div {
@@ -46,6 +46,28 @@ body {
   transform: translateY(-100%);
   animation: fallDown 1s ease forwards;
   animation-delay: calc(var(--order) * 400ms);
+}
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.playBtn {
+  font-family: "Lato", sans-serif;
+  border: none;
+  width: 100px;
+  height: 50px;
+  transition: 0.25s;
+}
+
+.playBtn:hover {
+  scale: 1.1;
+}
+
+.target img {
+  width: 48px;
+  height: 48px;
 }
 
 @keyframes fallDown {
