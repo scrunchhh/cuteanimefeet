@@ -1,0 +1,23 @@
+{
+  "name": "cuteanimefeet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrunchhh/cuteanimefeet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrunchhh/cuteanimefeet/issues"
+  },
+  "homepage": "https://github.com/scrunchhh/cuteanimefeet#readme",
+  "dependencies": {
+    "eslint-config-wesbos": "^3.2.3"
+  }
+}
