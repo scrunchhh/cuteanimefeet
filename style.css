@@ -1,4 +1,5 @@
 :root {
+  font-family: "Lato", sans-serif;
   --bgcolor: #16161d;
   --textcolor: whitesmoke;
   color: var(--textcolor);
@@ -39,7 +40,6 @@ body {
 }
 
 .title {
-  font-family: "Lato", sans-serif;
   font-size: 50px;
   font-weight: 700;
   display: grid;
@@ -59,21 +59,30 @@ body {
   animation: fallDown 1s ease forwards;
   animation-delay: calc(var(--order) * 400ms);
 }
+
+.customization {
+  grid-area: 1 / 3 / 2 / 4;
+  display: flex;
+  margin: 15px;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
 .play {
   display: flex;
   justify-content: center;
   align-items: center;
   grid-area: 2 / 2 / 3 / 3;
 }
-.playBtn {
-  font-family: "Lato", sans-serif;
+button {
   border: none;
   width: 100px;
   height: 50px;
   transition: 0.25s;
 }
 
-.playBtn:hover {
+button:hover {
   scale: 1.1;
 }
 
